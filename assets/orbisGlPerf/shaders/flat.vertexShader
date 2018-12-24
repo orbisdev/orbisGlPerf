@@ -1,0 +1,18 @@
+// input constants
+uniform mat4 mvpMatrix;
+
+// input variables, different for each vertex
+attribute vec3 vertPosition_modelspace;
+attribute vec3 vertNormal_modelspace;
+
+// outputs
+varying vec4 color;
+
+void main()
+{
+    // vertex color = vertex normal
+    color = vec4(vertNormal_modelspace, 1.0);
+
+    // OpenGL needs the fully-projected vertex position for rendering the triangle
+    gl_Position = mvpMatrix * vec4(vertPosition_modelspace, 1);
+}

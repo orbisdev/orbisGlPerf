@@ -1,0 +1,9 @@
+// input variables, different for each fragment
+precision mediump float;
+
+varying vec4 color;
+
+void main()
+{
+    gl_FragColor = color; 
+}

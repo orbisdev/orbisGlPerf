@@ -1,0 +1,12 @@
+precision mediump float;
+
+uniform sampler2D textureSampler;
+
+// input variables, different for each fragment
+varying vec2 texCoord0;
+varying vec4 lightTotal;
+
+void main()
+{
+    gl_FragColor =  lightTotal * texture2D(textureSampler, texCoord0); 
+}
