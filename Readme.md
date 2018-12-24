@@ -818,7 +818,7 @@ orbisGlPerf basic GL ES 2.0 perfomance sample for PlayStation 4
   - Steve Chamberlin from https://www.bigmessowires.com/about/  rasperf3d was easy to port THANKS!!!!
   - Music from estrayck https://modarchive.org/index.php?request=search&query=estrayk&submit=Find&search_type=filename_or_songtitle
   
-  ![alt text](https://raw.github.com/orbisdev/orbisGlPerf/master/capture.png "rex on PlayStation 4 :P")
+  ![alt text](../master/capture.png "rex on PlayStation 4 :P")
   
   
  
